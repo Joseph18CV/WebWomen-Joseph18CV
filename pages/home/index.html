@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/ul.css">
+    <link rel="stylesheet" href="../../styles/aside.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <title>Webwomen</title>
     <meta
@@ -16,8 +19,38 @@
     />
 </head>
 <body>
-    <main></main>
-    <script src="jobsData.js"></script>
-    <script src="index.js"></script>
+    <header>
+      <div class="container">
+        <div class="header">
+          <img src="../../assets/img/logo.svg" alt="logo">
+          <h1>Lugar de mulher é onde ela quiser!</h1>
+          <p>Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+            Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+            e ao redor do mundo?</p>
+          <span>Confere aqui embaixo o que temos para você!</span>
+          <button>Ir para seção das vagas</button>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h2 class="title">Vagas</h2>
+      <section class="section-list">
+        <ul class="list">
+          <!-- CARDS DE VAGAS -->
+        </ul>
+        <aside class="empty">
+          <h2>Vagas selecionadas</h2>
+          <div class="div-empty">
+            <!-- <p>Você ainda não aplicou para nenhuma vaga</p>
+            <div class="empty-color1"></div>
+            <div class="empty-color2"></div>
+            <div class="empty-color3"></div> -->
+          </div>
+        </aside>
+      </section>  
+    </main>
+    <script src="../home/jobsData.js"></script>
+    <script src="../home/createCards.js"></script>
+    <script src="../home/aside.js"></script>
 </body>
 </html>

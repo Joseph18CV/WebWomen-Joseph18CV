@@ -1,0 +1,92 @@
+.list {
+    width: 55%;
+    height: 1324px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 54px;
+}
+
+.card {
+    width: 100%;
+    height: 307px;
+    background-color: var(--color-grey-6);
+}
+
+.card-container {
+    margin: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-container h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--title-4);
+    color: var(--color-grey-1);
+}
+
+.card-container p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-2);
+    color: var(--color-grey-2);
+}
+
+.enterprise-and-location {
+    display: flex;
+    gap: 32px;
+}
+
+.enterprise-and-location p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+}
+
+.enterprise-and-location span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+}
+
+.div-modalities {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-modalities span {
+    background-color: var(--color-grey-3);
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--text-3);
+    color: var(--color-grey-2);
+}
+
+.div-modalities button {
+    background-color: var(--color-brand-1);
+    border: 2px solid var(--color-brand-1);
+    border-radius: 8px;
+    padding: 7px 28px;
+    color: var( --color-grey-6);
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--text-2);
+}
+
+.div-modalities button:hover {
+    background-color: var(--color-brand-2);
+}
+
+.div-span {
+    display: flex;
+    gap: 28px;
+}
+

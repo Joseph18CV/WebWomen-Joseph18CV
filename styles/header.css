@@ -1,0 +1,60 @@
+header {
+    background-image: url(../assets/img/background-women.svg);
+    height: 735px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 45px; 
+}
+
+.header {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    width: 193.31px;
+    height: 23.97px;
+    margin-bottom: 60px;
+    margin-top: 158.5px;
+}
+
+.header h1 {
+    color: var(--color-grey-3);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--title-1);
+    margin-bottom: 32px;
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--title-5);
+    color: var(--color-grey-5);
+    margin-bottom: 25px;
+}
+
+.header span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--title-5);
+    color: var(--color-grey-5);
+    margin-bottom: 60px;
+}
+
+.header button {
+    width: 296px;
+    height: 48px;
+    background-color: var(--color-brand-1);
+    border: 2px solid var(--color-brand-1);
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--text-2);
+    color: var(--color-grey-6);
+}

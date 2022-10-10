@@ -35,10 +35,13 @@ img {
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 120vh;
+  background-color: var(--color-grey-5);
 }
 
 .container {
-  width: 76rem;
+  width: 82rem;
+  height: 100%;
   max-width: 100%;
   margin: 0 auto;
   padding-left: 1rem;
@@ -52,4 +55,15 @@ body {
     --title-3: calc(2rem / 1.2);
     --text-1:  calc(1.125rem / 1.2);
   }
+  body {
+    height: 200vh;
+  }
+  .section-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+ul {
+  list-style: none;
 }
