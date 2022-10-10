@@ -87,6 +87,8 @@ function createCardAside () {
                     divEmpty.innerHTML = ""
                     createAside()
                 }
+                let dataJobsContainer = JSON.stringify(newArray)
+                localStorage.setItem('dataJobs', dataJobsContainer)
             })
         
         let divAside2 = document.createElement("div")
@@ -97,6 +99,7 @@ function createCardAside () {
             span.innerText = element.location
         let img = document.createElement("img")
             img.src = "../../assets/img/trash.png"
+            img.id = element.id
 
         trashButton.appendChild(img)
         divAside.append(h3, trashButton)

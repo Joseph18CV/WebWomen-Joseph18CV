@@ -70,7 +70,7 @@
     color: var(--color-grey-2);
 }
 
-.div-modalities button {
+.button-user {
     background-color: var(--color-brand-1);
     border: 2px solid var(--color-brand-1);
     border-radius: 8px;
@@ -81,7 +81,7 @@
     font-size: var(--text-2);
 }
 
-.div-modalities button:hover {
+.button-user {
     background-color: var(--color-brand-2);
 }
 
